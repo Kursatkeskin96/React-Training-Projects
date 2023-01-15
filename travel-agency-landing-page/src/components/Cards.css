@@ -1,0 +1,15 @@
+.card {
+    margin-top: 20px;
+}
+
+.btn {
+    max-width: fit-content;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.card-text {
+    max-height: 150px;
+    margin: 20px;
+    font-size: small;
+}
