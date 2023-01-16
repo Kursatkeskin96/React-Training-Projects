@@ -1,5 +1,5 @@
 .wrapper {
-    background-image:url(lake.jpg);
+    background-image:url(../images/lake.jpg);
     background-size: 100% 100%;
     height: 500px;
 }
@@ -14,3 +14,11 @@
 .h, .p{
     text-shadow: 1px 4px 4px black;
 }
+
+@media (max-width: 576px) {
+    .wrapper {
+        background-image:url(../images/lake.jpg);
+        background-size: 100% 100%;
+        height: 400px;
+    }
+  }

@@ -3,15 +3,16 @@ import Navbar from './components/Navbar';
 import Background from './components/Background';
 import Cards from './components/Cards';
 import Headings from './components/Headings';
-import London from './components/london.jpg'
-import Barcelona from './components/barcelona.jpg'
-import Capadocia from './components/capadocia.jpg'
+import London from './images/london.jpg'
+import Barcelona from './images/barcelona.jpg'
+import Capadocia from './images/capadocia.jpg'
 import Customersh from './components/Customersh';
 import Customers from './components/Customers';
-import Randomgirl1 from './components/randomgirl1.jpg'
-import Randomgirl2 from './components/randomgirl2.jpg'
-import Randomman from './components/randomman.jpg'
+import Randomgirl1 from './images/randomgirl1.jpg'
+import Randomgirl2 from './images/randomgirl2.jpg'
+import Randomman from './images/randomman.jpg'
 import Footer from './components/Footer'
+import Footer2 from './components/Footer2'
 
 function App(props) {
   return (
@@ -30,7 +31,7 @@ function App(props) {
       image = {Barcelona}
       />
       <Cards 
-      title = "Capadocia"
+      title = "Cappadocia"
       text = "Explore the mystical landscape of Cappadocia, where erosion has sculpted unique fairy chimneys, cave dwellings and underground cities."
       image = {Capadocia}
       />
@@ -51,6 +52,8 @@ function App(props) {
       comment = "I was hesitant to book a trip with a new agency, but I'm so glad I did! Your team exceeded all of my expectations." />
     </div>
     <Footer />
+    <hr className='container mt-3'></hr>
+    <Footer2 />
     </div>
   );
 }

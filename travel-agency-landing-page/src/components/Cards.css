@@ -1,5 +1,6 @@
 .card {
     margin-top: 20px;
+    width: 18rem;
 }
 
 .btn {
@@ -13,3 +14,11 @@
     margin: 20px;
     font-size: small;
 }
+
+@media (max-width: 576px) {
+    .card {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  
