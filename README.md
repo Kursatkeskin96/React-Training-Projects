@@ -5,6 +5,7 @@ This repository contains a collection of projects that were created while learni
 ## Project List
 
 - [FAQ](https://github.com/Kursatkeskin96/React-Training-Projects/tree/master/faq)
+- [Travel Agency Landing Page](https://github.com/Kursatkeskin96/React-Training-Projects/tree/master/travel-agency-landing-page)
 
 ## Getting Started
 
